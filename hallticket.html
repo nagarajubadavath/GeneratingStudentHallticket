@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hallticket.css">
+</head>
+<body>
+    <form name="form1" action="hallticket.php" method="post">
+    <div class="outer">
+        <div class="name">
+            <table>
+                <tr>
+                    <td>
+                        <label><b>Name of Candidate:</b></label>
+                    </td>
+                    <td>
+                        <input type="text" style="font-size: 32px;" name="sname" placeholder="Name">
+                    </td>
+                </tr>
+            </table>
+            </div>
+            <div class="idno">
+              <table>
+                <tr>
+                    <td>
+                        <label><b>Id No:</b></label>
+                    </td>
+                    <td>
+                        <input type="text" style="font-size:32px" name="id" placeholder="ex:B201136">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="branch">
+            <table>
+                <tr>
+                    <td>
+                        <label><b>Branch:</b></label>
+                    </td>
+                    <td>
+                        <select style="font-size: 32px;" name="branch">
+                            <option value="cse">CSE</option>
+                            <option value="ece">ECE</option>
+                            <option value="eee">EEE</option>
+                            <option value="ce">CE</option>
+                            <option value="me">ME</option>
+                            <option value="che">CE</option>
+                            <option value="mme">MME</option>
+                            <option value="others">others</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        
+        <div class="email">
+            <table>
+                <tr>
+                    <td>
+                        <label><b>E-Mail:</b></label>
+                    </td>
+                    <td>
+                        <input type="text" style="font-size:32px;" name="email" placeholder="b201136@rgukt.ac.in">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="password">
+            <table>
+                <tr>
+                    <td>
+                        <label><b>Password:</b></label>
+                    </td>
+                    <td>
+                        <input type="password" style="font-size:32px;" name="pwd" placeholder="write your password">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mobile">
+            <table>
+                <tr>
+                    <td>
+                        <label><b>Mobile NO:</b></label>
+                    </td>
+                    <td>
+                        <input type="text" style="font-size:32px;" name="mobile" placeholder="6304731004">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="pic">
+            <table>
+                <tr>
+                    <td>
+                        <label><b>Photo:</b></label>
+                    </td>
+                    <td>
+                        <input type="file" style="font-size:32px;" name="photo" value="photo">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <center><input type="submit" style="font-size: 32px;border-radius:8px;" value="Register"></center>
+      </div>
+    </form>
+    <script src="hallticket.js"></script>
+</body>
+</html>

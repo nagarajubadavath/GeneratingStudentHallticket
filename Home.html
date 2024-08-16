@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(trail6.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            height: 100vh;
+            background-color: rgba(255, 255, 255, 0.5);
+            color: white;
+            opacity: 0.5;
+        }
+        h1 {
+            
+            display: inline-block;
+        }
+        .container {
+            height: 200px;
+            width: 300px;
+            padding:40px;
+            border: 2px solid white;
+            border-radius: 8px;
+        }
+        .label {
+            font-size: 32px;
+            padding:15px;
+            margin-top: 30px;
+        }
+        table {
+            width: 100%;
+            text-align: center;
+        }
+        td {
+            width: 50%;
+            border-radius: 8px;
+        }
+        .in{
+            padding:15px;
+            margin:10px;
+            margin-left:5px;
+            border-radius:8px;
+        }
+        #inn{
+            padding:15px;
+            margin-left:12px;
+            border-radius:8px;
+        }
+       
+    </style>
+</head>
+<body>
+    <form name="form2" action="login.php" method="post">
+        <h1>Login/Register</h1>
+        <div class="container">
+            <table>
+                <tr>
+                    <td>
+                        <label>E-mail:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="inn"  name="email" placeholder="write mail id">
+                    </td>
+                </tr>
+            </table>
+            <div class="password">
+                <table>
+                    <tr>
+                        <td>
+                            <label>Password:</label>
+                        </td>
+                        <td>
+                            <input type="password" class="in" name="pwd" placeholder="write your password">
+                        </td>
+                    </tr>
+                </table>
+                </div>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="submit" class="in" value="Login">
+                        </td>
+                        <td>
+                            <a href="hallticket.html"><b style="color: white;">SignUp</b></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
